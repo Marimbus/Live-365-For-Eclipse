@@ -30,7 +30,7 @@ public class Live365SearchGenresTopStationsTest {
 	private static List<String> getListOfGenres(){			
 		List<String> strListOfGenreTopStations = new ArrayList<String>();
 		//                initialize chrome instance		                 
-		System.setProperty("webdriver.chrome.driver", "C:/Live365/selenium/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Live-365-For-Eclipse-master/selenium/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
